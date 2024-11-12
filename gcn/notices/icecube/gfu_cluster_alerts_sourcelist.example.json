@@ -1,0 +1,21 @@
+{
+  "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/gfu_cluster_alerts.schema.json",
+  "additional_info": "IceCube Bronze Neutrino Track Alert",
+  "event_name": ["IceCube-190702A-PKS0338m214"],
+  "id": [???],
+  "monitored_source_name": "PKS 0338-214",
+  "alternative_source_names": ["3FGL J0340.5-2119"],
+  "alert_datetime": "2019-07-02T03:38:45.248385Z",
+  "alert_type": "initial",
+  "ra": 55.14,
+  "dec": -21.32,
+  "trigger_time": "2019-07-02T03:38:45.248385Z",
+  "initial_event_time": "2019-06-23T10:07:19.938280Z",
+  "time_window_duration": 754272.00,
+  "good_detector_uptime": 751075.20,
+  "n_signal_events_best": 4.25,
+  "gamma_best": -3.00,
+  "test_statistic": 15.21,
+  "far": 6.8e-7,
+  "p_astro": 3.46e-4, #DO WE WANT THIS? PRE-TRIAL P-VALUE
+}
