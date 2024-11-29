@@ -35,12 +35,12 @@
       "minItems": 0,
       "maxItems": 3
     },
-    "initial_event_time": {
+    "time_window_start": {
       "description": "Start time of the intial event that defines the best fit time window found by the flare candidate likelihood [ISO 8601]",
       "type": "string"
     },
     "time_window_duration": {
-      "description": "Duration of the best fit time window between initial event and triggering event [s]",
+      "description": "Duration of the best fit time window between the start (time_window_start) and end (trigger_time) [s]",
       "type": "number"
     },
     "good_detector_uptime": {
