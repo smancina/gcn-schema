@@ -10,7 +10,7 @@
   "ra_dec_error": 0.2,
   "healpix_url": "https://roc.icecube.wisc.edu/gfu_allsky/ICGFUCluster_Allsky_190702A.fits",
   "trigger_time": "2019-07-02T03:38:45.248385Z",
-  "initial_event_time": "2019-06-23T10:07:19.938280Z",
+  "time_window_start": "2019-06-23T10:07:19.938280Z",
   "time_window_duration": 754272.00,
   "good_detector_uptime": 751075.20,
   "far": 6.8e-7,
