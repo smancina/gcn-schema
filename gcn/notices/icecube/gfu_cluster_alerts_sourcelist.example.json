@@ -2,9 +2,10 @@
   "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/gfu_cluster_alerts.schema.json",
   "additional_info": "IceCube GFU Cluster Source-List Alert",
   "event_name": ["ICGFUCluster_SourcePKS0338m214_190702A"],
+  "id": ["ICGFUCluster_SourcePKS0338m214_190702A_0"]
   "cluster_alert_mode": "source-list",
   "monitored_source_name": "PKS 0338-214",
-  "source_list_type": ["GeV Gamma-ray Influenced"],
+  "source_list_type": ["GeV Gamma-ray Influenced", "TeV Gamma-ray Influenced"],
   "alternative_source_names": ["3FGL J0340.5-2119"],
   "alert_datetime": "2019-07-02T03:38:45.248385Z",
   "alert_type": "initial",
