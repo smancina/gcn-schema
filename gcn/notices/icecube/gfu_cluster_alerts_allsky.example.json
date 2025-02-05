@@ -2,6 +2,7 @@
   "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/gfu_cluster_alerts.schema.json",
   "additional_info": "IceCube GFU Cluster Source-List Alert",
   "event_name": ["ICGFUCluster_Allsky_190702A"],
+  "id": ["ICGFUCluster_Allsky_190702A_0"]
   "cluster_alert_mode": "all-sky",
   "alert_datetime": "2019-07-02T03:38:45.248385Z",
   "alert_type": "initial",
