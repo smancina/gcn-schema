@@ -18,7 +18,7 @@
       "type": "string"
     },
     "monitored_source_name": {
-      "description": "Principal name of monitored source in source-list",
+      "description": "Principal name of monitored source in the source-list",
       "type": "string"
     },
     "source_list_type": {
@@ -34,6 +34,14 @@
       "items": { "type":"string" },
       "minItems": 0,
       "maxItems": 3
+    },
+    "source_ra": {
+      "type": "number",
+      "description": " ICRS right ascension [deg] of the monitored source in the soure-list (utilizes the J2000 epoch and an equatorial coordinate system)"
+    },
+    "source_dec": {
+      "type": "number",
+      "description": "ICRS declination [deg] of the monitored source in the soure-list (utilizes the J2000 epoch and an equatorial coordinate system)"
     },
     "time_window_start": {
       "description": "Start time of the intial event that defines the best fit time window found by the flare candidate likelihood [ISO 8601]",
