@@ -1,9 +1,9 @@
 {
-  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/single_neutrino_alerts.schema.json",
+  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/neutrino_cluster_alerts.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "IceCube Single Neutrino Alert",
-  "description": "IceCube Astrophysical alert events - Generate alerts from neutrino events detected by IceCube that are likely astrophysical in origin.",
+  "title": "IceCube Neutrino Cluster Alert",
+  "description": "IceCube Neutrino Cluster Alerts - Generate alerts from statistically significant clusters of neutrinos in space and time.",
   "allOf": [{ "$ref": "../neutrino/Alert.schema.json" }],
   "properties": {
     "pipeline": {
