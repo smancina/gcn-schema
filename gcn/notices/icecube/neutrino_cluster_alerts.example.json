@@ -1,0 +1,19 @@
+{
+  "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/neutrino_cluster_alerts.schema.json",
+  "mission": "IceCube",
+  "instrument": "IC86",
+  "messenger": "Neutrino",
+  "pipeline": "Source-List GFU-Cluster Alert",
+  "record_number": 1,
+  "id": ["GFU_250321_120909_PMN_J2016-0903"],
+  "alert_datetime": "2025-03-21T12:09:09.7Z",
+  "alert_type": "initial",
+  "alert_tense": "current",
+  "ra": 304.10,
+  "dec": -9.08,
+  "monitored_source_name": "PMN J2016-0903",
+  "alternative_source_names": ["3FGL J2016.4-0905"],
+  "trigger_time": "2025-03-21T12:09:09.717732Z",
+  "time_window_start": "2025-10-20T00:22:47.851377Z",
+  "far": 6.34e-7
+}
