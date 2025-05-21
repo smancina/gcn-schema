@@ -1,0 +1,29 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/icecube/single_neutrino_alerts.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "IceCube Single Neutrino Alert",
+  "description": "IceCube Astrophysical alert events - Generate alerts from neutrino events detected by IceCube that are likely astrophysical in origin.",
+  "allOf": [{ "$ref": "../neutrino/Alert.schema.json" }],
+  "properties": {
+    "pipeline": {
+      "enum": ["Source-List GFU-Cluster Alert", "All-sky GFU Cluster Alert"],
+      "description": "Name of IceCube Astrophysical Alert Selection pipeline",
+      "type": "string"
+    },
+    "monitored_source_name": {
+	    "description": "Primary name of the monitored source that produced the alert in the source-list",
+	    "type": "string"
+    },
+    "alternative_source_names": {
+	    "description": "Any array of strings with the alternative names of the mointored source that produced the alert",
+	    "type": "array",
+	    "items": { "type": "string"},
+	    "maxItems": 3
+    }
+    "time_window_start": {
+	    "description": "Best-fit starting time of the neutrino cluster [ISO 8601], ex YYYY-MM-DDTHH:MM:SS.ssssssZ",
+	    "type": "string"
+    }
+  }
+}
